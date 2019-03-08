@@ -37,4 +37,4 @@ color_scheme: nil
 ga_tracking: UA-2709176-10
 
 prose:
-  site_url: "/docs/utilities/layout/"
+  siteurl: "/docs/utilities/layout/"
