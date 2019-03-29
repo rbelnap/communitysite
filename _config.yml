@@ -38,3 +38,7 @@ ga_tracking: UA-2709176-10
 
 prose:
   siteurl: "https://devcommunity.eupathdb.org/"
+
+
+collections:
+  - embedded_content
