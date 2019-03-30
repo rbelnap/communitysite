@@ -42,3 +42,21 @@ prose:
 
 collections:
   - embedded_content
+
+# this uses the list of projects in _date/projects.yml to iterate and build all the embedded help pages
+# each of these pages will be build using the _layouts/help.html template.  
+
+page_gen-dirs: false
+page_gen:
+  - data: 'projects'
+    template: 'help'
+    name: 'name'
+    dir: 'embedded/help'
+
+# this uses the same mechanism to generate a 'general' page
+
+  - data: 'general'
+    template: 'help'
+    name: 'name'
+    dir: 'embedded/help'
+

@@ -1,0 +1,24 @@
+---
+layout: plain
+---
+
+{%- assign project = page.title -%}
+{%- capture path_match -%}_embedded_content/{{project}}{%- endcapture -%}
+
+{%- assign records = site.embedded_content | sort: 'order' -%}
+
+{%- for item in records -%}
+  {% if item.path contains path_match %}
+
+  <a name="newsText{{ item.order }}"/>
+  <a name="{{ item.tag }}"/>
+  <table border="0" cellpadding="2" cellspacing="0" width="100%">
+
+  <tr class="rowLight"><td>
+
+          <b>{{ item.name }}</b><br><br>
+{{ item.content }}
+  </td></tr></table>
+
+  {% endif %}
+{%- endfor -%}
