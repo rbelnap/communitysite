@@ -36,8 +36,8 @@ color_scheme: nil
 # e.g, UA-1234567-89
 ga_tracking: UA-2709176-10
 
-prose:
-  siteurl: "https://devcommunity.eupathdb.org/"
+#prose:
+#  siteurl: "https://devcommunity.eupathdb.org/"
 
 
 collections:
@@ -59,4 +59,3 @@ page_gen:
     template: 'help'
     name: 'name'
     dir: 'embedded/help'
-
