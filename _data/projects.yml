@@ -1,5 +1,5 @@
 - name: ToxoDB
-  nav_exclude: true
+  nav_exclude: false
   key: value
 - name: PlasmoDB
   nav_exclude: true
@@ -19,4 +19,3 @@
   key: value
 - name: CryptoDB
   nav_exclude: true
-
