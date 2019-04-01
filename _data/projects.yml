@@ -3,6 +3,19 @@
   key: value
 - name: PlasmoDB
   nav_exclude: true
+  advisors:
+  - name: John Adams
+    homepage: http://health.usf.edu/publichealth/gh/John+Adams.htm
+    institution: University of South Florida, USA
+  - name: Stuart Ralph
+    homepage: http://www.bio21.unimelb.edu.au/ralph-group
+    institution: University of Melbourne, Australia
+  - name: Akhil Vaidya
+    homepage: http://drexel.edu/medicine/Faculty/Profiles/Akhil-Vaidya/
+    institution: Drexel University, USA
+  - name: Chris Janse
+    homepage: https://www.lumc.nl/org/parasitologie/medewerkers/chris-janse
+    institution: Leiden University Medical Center, The Netherlands
   key: value
 - name: CryptoDB
   nav_exclude: true
