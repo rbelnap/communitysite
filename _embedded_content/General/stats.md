@@ -2,7 +2,7 @@
 title: Data Statistics
 tag: stats
 order: 3
-published: true
+published: false
 ---
 <div id="cirbulletlist"><ul>
 <li>The <a href = "/a/processQuestion.do?questionFullName=OrganismQuestions.GenomeDataTypes">EuPathDB Data Summary</a> provides an overview of the content in EuPathDB across sites, all organisms and data types covered.
